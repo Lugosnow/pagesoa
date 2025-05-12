@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Styling */
+html {
+    body {
+        font-family: 'Montserrat', sans-serif;
+    }
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1.25rem;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+p {
+    font-size: 1rem;
+    margin: 10px 0;
+    list-style: 1.7;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Utility Calases */
+.container {
+    margin: auto;
+    max-width: 1300px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.large {
+    font-size: 1.25rem;
+}
+
+.text-red {
+    color: red;
+}
+
+.display-1 {
+    font-size: 6rem;
+}
+
+/* Footer */
+.footer{
+    position: bottom;
+    vertical-align: middle;
+    left: 30%; right: 30%; margin: auto;
+    text-align: center;
+    bottom: 0%; height: 45px;
+}
+
+/* Header */
+#header {
+    height: 100vh;
+    padding-top: 50px;
+}
+
+/* Navbar */
+.nav-home {
+    height: 10vh;
+}
+
+#navbar {
+    overflow: auto;
+    /* padding-top: 20px; */
+    /* padding-bottom: 20px; */
+}
+
+#navbar a {
+    color: #000;
+}
+
+#navbar .logo {
+    float: left;
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+#navbar ul {
+    float: right;
+    font-size: 14px;
+    list-style: none;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    padding: 20px 20px;
+    display: block;
+    text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li .current {
+    background-color: #f4f4f4;
+}
+
+/* Inicio */
+#inicio {
+    height: 80vh;
+    background: #f8f9fa;
+    padding: 150px 0;
+}
+
+#inicio h1 {
+    line-height: 1em;
+}
+
+.inicio-row {
+    display: flex;
+}
+
+.inicio-row-titulo {
+    padding-top: 70px;
+}
+
+.inicio-row-image {
+    display: block;
+    margin: 0 auto;
+}
+
+.inicio-row-image img {
+    height: 500px;
+    border-radius: 5%;
+}
+
+/* About */
+#about {
+    background-color: #f8f9fa;
+    padding: 90px 0;
+}
+
+#about h2 {
+    padding-bottom: 50px;
+}
+
+.about-row {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.about-row-img img{
+    height: 500px;
+    margin-bottom: 20px; 
+    border-radius: 5%;
+}
+
+.about-row-text {
+    text-align: justify;
+    padding-left: 90px;
+}
+
+#about hr {
+    width: 60%;
+    margin-bottom: 30px;
+}
+
+.about-row-v {
+    flex: 1;
+    margin: 5px;
+}
+
+.about-row-table {
+    margin-left: 35%;
+}
+
+.about-row .about-row-table table {
+    width: auto;
+    text-align: center;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+.about-row .about-row-table th {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.about-row .about-row-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.about-row .about-row-table tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+.about-row .about-row-table tr:hover {
+    background-color: #ddd;
+}
+
+/* Portfolio */
+#portfolio {
+    background-color: #f8f9fa;
+    padding: 90px 0;
+}
+
+#portfolio h2 {
+    padding-bottom: 50px;
+}
+
+.portfolio-row {
+    display: flex;
+}
+
+.portfolio-row-box {
+    flex: 1;
+    margin: 20px;
+    border: 1px solid #f5f5f5;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-row-box img {
+    height: 170px;
+    width: 100%;
+}
+
+.portfolio-row-box p {
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    margin-top: 0;
+}
